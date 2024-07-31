@@ -12,13 +12,4 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-document.addEventListener('DOMContentLoaded', () => {
-    const testElements = document.querySelectorAll('.test');
-    const url = 'https://www.youtube.com';
-    testElements.forEach(element => {
-        element.addEventListener('click', () => {
-            window.location.href = url;
-        });
-    });
-});
 
